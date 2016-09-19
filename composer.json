@@ -17,7 +17,7 @@
         "oxid-esales/eshop-db-views-regenerator": "dev-master"
     },
     "require-dev": {
-        "oxid-esales/testing-library": "dev-master",
+        "oxid-esales/testing-library": "dev-migrations_for_structure-ESDEV-3938 ",
         "oxid-esales/coding-standards": "dev-master",
         "incenteev/composer-parameter-handler": "~2.0"
     },
