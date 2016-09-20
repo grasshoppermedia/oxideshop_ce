@@ -1326,11 +1326,11 @@ CREATE TABLE `oxselectlist` (
   `OXIDENT` varchar(255) NOT NULL default '' COMMENT 'Working Title',
   `OXVALDESC` text NOT NULL COMMENT 'List fields, separated by "[field_name]!P![price]__@@[field_name]__@@" (multilanguage)',
   `OXTITLE_1` varchar(255) NOT NULL default '',
-  `OXVALDESC_1` text NOT NULL,
+  `OXVALDESC_1` text NOT NULL DEFAULT '',
   `OXTITLE_2` varchar(255) NOT NULL default '',
-  `OXVALDESC_2` text NOT NULL,
+  `OXVALDESC_2` text NOT NULL DEFAULT '',
   `OXTITLE_3` varchar(255) NOT NULL default '',
-  `OXVALDESC_3` text NOT NULL,
+  `OXVALDESC_3` text NOT NULL DEFAULT '',
   `OXTIMESTAMP` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP COMMENT 'Timestamp',
   PRIMARY KEY  (`OXID`)
 ) ENGINE=MyISAM COMMENT 'Selection lists';
